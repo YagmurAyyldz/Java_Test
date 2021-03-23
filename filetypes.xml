@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="deneme" type="CLASS" />
+      <mapping ext="rar" type="JavaFX" />
+      <mapping pattern="backgraund" type="XML" />
+    </extensionMap>
+  </component>
+</application>
