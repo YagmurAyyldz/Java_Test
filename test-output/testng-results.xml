@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="35" started-at="2021-03-22T16:56:54Z" finished-at="2021-03-22T16:56:55Z">
+  <suite name="Default Suite" duration-ms="13925" started-at="2021-03-23T20:54:34Z" finished-at="2021-03-23T20:54:48Z">
     <groups>
     </groups>
-    <test name="Maven_Test" duration-ms="35" started-at="2021-03-22T16:56:54Z" finished-at="2021-03-22T16:56:55Z">
-      <class name="MavenTestNGClass">
-        <test-method status="PASS" signature="setup()[pri:0, instance:MavenTestNGClass@6bdf28bb]" name="setup" duration-ms="8" started-at="2021-03-22T19:56:55Z" finished-at="2021-03-22T19:56:55Z">
+    <test name="Maven_Test" duration-ms="13925" started-at="2021-03-23T20:54:34Z" finished-at="2021-03-23T20:54:48Z">
+      <class name="searchButtonTest">
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:searchButtonTest@3b81a1bc]" name="Beforemethod" is-config="true" duration-ms="5860" started-at="2021-03-23T23:54:34Z" finished-at="2021-03-23T23:54:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- MavenTestNGClass -->
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="gittiGidiyor()[pri:1, instance:searchButtonTest@3b81a1bc]" name="gittiGidiyor" duration-ms="7386" started-at="2021-03-23T23:54:40Z" finished-at="2021-03-23T23:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gittiGidiyor -->
+        <test-method status="PASS" signature="Aftermethod()[pri:0, instance:searchButtonTest@3b81a1bc]" name="Aftermethod" is-config="true" duration-ms="666" started-at="2021-03-23T23:54:47Z" finished-at="2021-03-23T23:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+      </class> <!-- searchButtonTest -->
     </test> <!-- Maven_Test -->
   </suite> <!-- Default Suite -->
 </testng-results>
