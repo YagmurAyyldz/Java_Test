@@ -9,7 +9,7 @@ public class Base {
     protected static WebDriverWait wait;
 
     public void beforemethod(){
-        System.setProperty ("webdriver.chrome.driver","C:\\Program Files\\Java\\apache-maven-3.6.3\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Java\\apache-maven-3.6.3\\chromedriver.exe");
         driver = new ChromeDriver ();
         wait = new WebDriverWait (driver,20);
         driver.manage ().window ().maximize ();
@@ -21,3 +21,5 @@ public class Base {
 
 
 }
+
+
