@@ -4,6 +4,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="deneme" type="CLASS" />
       <mapping ext="rar" type="JavaFX" />
+      <mapping pattern="chromedriver.exe" type="PLAIN_TEXT" />
       <mapping pattern="backgraund" type="XML" />
     </extensionMap>
   </component>
